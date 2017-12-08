@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+main{
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 800px;
+	font-size: 0;
+}
+div{
+	display: inline-block;
+	border: 1px solid black;
+}
+.green, .blue{
+	height: 200px;
+	width: 50%;
+}
+.grey, .black, .yellow{
+	height: 300px;
+	width: 33.33%;
+}
+.green{background-color: green;}
+.blue{background-color: blue;}
+.grey{background-color: grey;}
+.black{background-color: black;}
+.yellow{background-color: yellow;}
